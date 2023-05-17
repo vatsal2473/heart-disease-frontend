@@ -72,13 +72,9 @@ function App() {
 
 
     try {
-
       const response = await fetch(
-
-        'https://heart-disease-api-production.up.railway.app/predict',
-
+        'https://heart-disease-flask-api-production.up.railway.app//predict',
         requestOptions,
-
       );
 
       const result = await response.text();
